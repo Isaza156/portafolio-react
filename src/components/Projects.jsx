@@ -8,7 +8,7 @@ import Proyect6 from '../images/6.jpg';
 
 const Projects = () => {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <div className="container">
                 <div className=" text-center p-5">
                     <h2 className="titulo-portafolio">Haz de tu trabajo algo extraordinario</h2>

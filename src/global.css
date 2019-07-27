@@ -18,14 +18,6 @@
     text-decoration: underline;
 }
 
-.linea {
-    width: 600px;
-    margin: 0 auto;
-    height: 3px;
-    background: dodgerblue;
-    margin-bottom: 20px;
-}
-
 .nombre{
     font-size:80px;
 }

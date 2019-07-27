@@ -5,7 +5,7 @@ import Icono3 from '../images/icono3.png';
 
 const Icons = () => {
     return (
-        <div className="icono">
+        <div className="icono" id="about">
             <div className="container text-center my-5">
                 <div className="row">
                     <div className="col-md-4 col-sm-12">

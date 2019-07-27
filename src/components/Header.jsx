@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Header = () => {
     return (
@@ -15,21 +16,26 @@ const Header = () => {
                             <a className="nav-link text-white bhome" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white babout" href="/">About</a>
+                            <a className="nav-link text-white babout" href='#about'>About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white bport" href="/">Portfolio</a>
+                            <a className="nav-link text-white bport" href="#projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-white bcont" href="/">Contact</a>
-                        </li>
+                            <a className="nav-link text-white bcont" href="#contact">Contact</a>
+                        </li>                       
                     </ul>
                 </div>
+                <div className='container d-flex justify-content-end '>
+              <a className='text-white p-2' href="https://twitter.com/isaza156" target='_blank'><FontAwesomeIcon icon={['fab', 'twitter-square']} size='2x'/></a>
+              <a className='text-white p-2' href="https://github.com/isaza156" target='_blank'><FontAwesomeIcon icon={['fab', 'github-square']} size='2x'/></a>
+              <a className='text-white p-2' href="https://linkedin.com/in/isaza156"  target='_blank'><FontAwesomeIcon icon={['fab', 'linkedin']} size='2x'/></a>
+            </div>
             </nav>
+            
             <main role="main" className="inner cover text-center container my-5">
-                <h1 className="cover-heading nombre mt-5 mb-3">Jonathan Isaza</h1>
-                <div className="linea"></div>
-                <p className="lead mt-4 des">Desarrollador Web FrontEnd</p>
+                <h1 className="cover-heading nombre mt-5 mb-4">Jonathan Isaza</h1>
+                <p className="lead mt-5 des">Desarrollador Web FrontEnd</p>
                 <p className="lead">
                     <a href="/" className="btn btn-lg btn-secondary my-5">Contrátame Ahora</a>
                 </p>
@@ -38,25 +44,4 @@ const Header = () => {
     )
 }
 
-export default Header;
-                /*
-
-
-<header>
-            
-
-                    <main role="main" class="inner cover my-5">
-                        <div class="contenedor-texto-header">
-                    <h1 class="titulo-header my-5 text-white">Jonathan Isaza</h1><br/>
-                    <div class="linea"></div>
-                    <h2 class="subtitulo-header text-white">Desarrollador Web FrontEnd</h2>
-                    <p class="lead">
-                            <a href="/" class="btn btn-lg btn-secondary my-5">Learn more</a>
-                        </p>
-                </div>
-                    </main>
-                </div>
-
-            </div>
-        </header>
-        */
+export default Header;            
