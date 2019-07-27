@@ -8,19 +8,31 @@ import Proyect6 from '../images/6.jpg';
 
 const Projects = () => {
     return (
-        <div className="portafolio">
-            <div className="contenedor">
-                <div className="contenedor-texto-portafolio">
+        <div className="projects">
+            <div className="container">
+                <div className=" text-center p-5">
                     <h2 className="titulo-portafolio">Haz de tu trabajo algo extraordinario</h2>
-                    <p className="parrafo-portafolio">Contáctame si estás preparado.</p>
+                    <p className="text-muted mt-4">Contáctame si estás preparado.</p>
                 </div>
-                <div className="contenedor-portafolio">
-                    <img src={Proyect1} alt="" />
-                    <img src={Proyect2} alt="" />
-                    <img src={Proyect3} alt="" />
-                    <img src={Proyect4} alt="" />
-                    <img src={Proyect5} alt="" />
-                    <img src={Proyect6} alt="" />
+                <div className="row d-flex justify-content-between">
+                    <div className="col-md-4 col-sm-12 mb-4">
+                        <img className='img-fluid opa' src={Proyect1} alt="" />
+                    </div>
+                    <div className="col-md-4 col-sm-12 mb-4">
+                        <img className='img-fluid opa' src={Proyect2} alt="" />
+                    </div>
+                    <div className="col-md-4 col-sm-12 mb-4">
+                        <img className='img-fluid opa' src={Proyect3} alt="" />
+                    </div> 
+                    <div className="col-md-4 col-sm-12 mb-5">
+                        <img className='img-fluid opa' src={Proyect4} alt="" />
+                    </div>
+                    <div className="col-md-4 col-sm-12 mb-5">
+                        <img className='img-fluid opa' src={Proyect5} alt="" />
+                    </div>
+                    <div className="col-md-4 col-sm-12 mb-5">
+                        <img className='img-fluid opa' src={Proyect6} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

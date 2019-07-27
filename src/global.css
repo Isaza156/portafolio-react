@@ -5,3 +5,75 @@
     background-repeat: no-repeat;
     
 }
+.bhome:hover{   
+    text-decoration: underline;
+}
+.babout:hover{   
+    text-decoration: underline;
+}
+.bport:hover{   
+    text-decoration: underline;
+}
+.bcont:hover{   
+    text-decoration: underline;
+}
+
+.linea {
+    width: 600px;
+    margin: 0 auto;
+    height: 3px;
+    background: dodgerblue;
+    margin-bottom: 20px;
+}
+
+.nombre{
+    font-size:80px;
+}
+
+.des{
+    font-weight: 400;
+}
+
+.about{
+    background: rgb(228, 228, 228);
+}
+
+.projects{
+    background: rgb(228, 228, 228);
+}
+.opa:hover{
+    opacity: .6;
+}
+
+.bg-footer{
+    background-image: url('./images/footer.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondo{
+    background: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+.mensaje{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+.boton{
+    background: #6c757d;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 18px;
+    padding: 15px 20px;
+    
+}
