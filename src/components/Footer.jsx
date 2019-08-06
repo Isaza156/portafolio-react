@@ -15,6 +15,11 @@ const Footer = () => {
                     <input type="submit" value="Contactar" className="boton text-white btn btn-lg btn-secondary" />
                 </div>
             </form>
+            <div className="btn-whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=573122678810" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="" />
+                </a>
+            </div>
         </div>
     )
 }

@@ -23,7 +23,10 @@ const Header = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white bcont" href="#contact">Contact</a>
-                        </li>                       
+                        </li>      
+                        <li className="nav-item">
+                            <a className="nav-link text-white bcont" href="/">CV</a>
+                        </li>                  
                     </ul>
                 </div>
                 <div className='container d-flex justify-content-end '>
@@ -37,7 +40,7 @@ const Header = () => {
                 <h1 className="cover-heading nombre mt-5 mb-4">Jonathan Isaza</h1>
                 <p className="lead mt-5 des">Desarrollador Web FrontEnd</p>
                 <p className="lead">
-                    <a href="/" className="btn btn-lg btn-secondary my-5">Contrátame Ahora</a>
+                    <a href="https://api.whatsapp.com/send?phone=573122678810" target="_blank" className="btn btn-lg btn-secondary my-5">Contáctame Ahora</a>
                 </p>
             </main>
         </div>
